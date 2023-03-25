@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using ConfigCat.Client;
 
 public class HUD : CanvasLayer
 {
