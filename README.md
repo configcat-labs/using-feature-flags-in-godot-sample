@@ -1,31 +1,33 @@
-# How to use feature flags in a GODOT game
+# Dodge the Creeps
 
-#### (Optional) In case the blog post is already published, please add: [Read the blog post here](https://configcat.com/blog/)
+This is a simple game where your character must move
+and avoid the enemies for as long as possible.
 
-A few words about the contents of the repository. Whats is this application about, what does it demonstrate? Add a backlink to https://configcat.com
+This is a finished version of the game featured in the
+["Your first 2D game"](https://docs.godotengine.org/en/latest/getting_started/first_2d_game/index.html)
+tutorial in the documentation. For more details,
+consider following the tutorial in the documentation.
 
-## Build & Run
+Language: GDScript
 
-Instructions on how to build and run the application locally. A student or junior developer should be able to run the application.
-- Prerequisites
-- Steps, commands to run
+Renderer: GLES 3 (particles are not available in GLES 2)
 
-## Learn more
+Note: There is a C# version available [here](https://github.com/godotengine/godot-demo-projects/tree/master/mono/dodge_the_creeps).
 
-Useful links to technical resources.
+Note: There is a GDNative C++ version available [here](https://github.com/godotengine/gdnative-demos/tree/master/cpp/dodge_the_creeps).
 
-Example:
-- Next.js Documentation - learn about Next.js features and API.
-- Learn Next.js - an interactive Next.js tutorial.
+Check out this demo on the asset library: https://godotengine.org/asset-library/asset/515
 
-[**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
+## Screenshots
 
-You can also explore other code samples for various languages, frameworks, and topics here in the [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
+![GIF from the documentation](https://docs.godotengine.org/en/latest/_images/dodge_preview.gif)
 
-Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
+![Screenshot](screenshots/dodge.png)
 
-## Author
-[chavezharris](https://github.com/codedbychavez)
+## Copying
 
-## Contributions
-Contributions are welcome!
+`art/House In a Forest Loop.ogg` Copyright &copy; 2012 [HorrorPen](https://opengameart.org/users/horrorpen), [CC-BY 3.0: Attribution](http://creativecommons.org/licenses/by/3.0/). Source: https://opengameart.org/content/loop-house-in-a-forest
+
+Images are from "Abstract Platformer". Created in 2016 by kenney.nl, [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/). Source: https://www.kenney.nl/assets/abstract-platformer
+
+Font is "Xolonium". Copyright &copy; 2011-2016 Severin Meyer <sev.ch@web.de>, with Reserved Font Name Xolonium, SIL open font license version 1.1. Details are in `fonts/LICENSE.txt`.
