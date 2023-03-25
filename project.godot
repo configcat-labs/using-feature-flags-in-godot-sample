@@ -6,24 +6,15 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[  ]
-_global_script_class_icons={
-
-}
+config_version=5
 
 [application]
 
-config/name="Dodge"
-run/main_scene="res://Main.tscn"
-config/icon="res://icon.png"
+config/name="ScriptingWithGodot"
+run/main_scene="res://sprite_2d.tscn"
+config/features=PackedStringArray("4.0", "C#", "Forward Plus")
+config/icon="res://icon.svg"
 
-[display]
+[dotnet]
 
-window/size/width=480
-window/size/height=720
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
+project/assembly_name="ScriptingWithGodot"
