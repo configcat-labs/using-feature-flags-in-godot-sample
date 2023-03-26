@@ -1,6 +1,6 @@
 # How to use feature flags in GODOT Engine
 
-This is a companion repository containing the sample project mentioned and used in the blog article titled **How to use feature flags**. The article covers the steps for using a feature flag in a GODOT application.
+This is a companion repository containing the sample project mentioned and used in the blog article titled **How to use feature flags in GODOT Engine**. The article covers the steps for using a feature flag in a GODOT application.
 
 ## Pre-requisites
 
