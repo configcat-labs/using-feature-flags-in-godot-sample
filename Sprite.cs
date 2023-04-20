@@ -4,19 +4,35 @@ using ConfigCat.Client;
 
 public partial class Sprite : Sprite2D
 {
-    // Initialization here.
-    public override void _Ready()
+  private int speed = 400;
+  private int AngularSpeed = (int)Mathf.Pi;
+
+  // Initialize ConfigCat client.
+  private IConfigCatClient configCatClient = ConfigCatClient.Get("bzTbCEPv_E6GL6COig1QRQ/uZTJPJvsgUuyI8kCvbmXjg");
+
+  private bool isRotateSpriteEnabled;
+
+  public override void _Ready()
+  {
+    isRotateSpriteEnabled = configCatClient.GetValue("rotatesprite", false);
+
+    if (isRotateSpriteEnabled)
     {
-      var client = ConfigCatClient.Get("WC3bCC2efUaHXNSnavbn7A/5pFwOsqXAE-juwU3OfMkCw");
-      var isMyAwesomeFeatureEnabled = client.GetValue("test", false);
-		  GD.Print(isMyAwesomeFeatureEnabled);
-
-      if(isMyAwesomeFeatureEnabled) {
-        GD.Print("Your feature flag is enabled!!");
-      } else {
-        GD.Print("Your feature flag is disabled!!");
-      }
-
-
+      GD.Print("Your feature flag is enabled!!");
     }
+    else
+    {
+      GD.Print("Your feature flag is disabled!!");
+    }
+
+
+  }
+
+  public override void _Process(double delta)
+  {
+    if (isRotateSpriteEnabled)
+    {
+      Rotation += AngularSpeed * (float)delta;
+    }
+  }
 }
