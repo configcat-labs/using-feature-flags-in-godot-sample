@@ -8,13 +8,13 @@ public partial class Sprite : Sprite2D
   private int AngularSpeed = (int)Mathf.Pi;
 
   // Initialize ConfigCat client
-  private IConfigCatClient configCatClient = ConfigCatClient.Get("bzTbCEPv_E6GL6COig1QRQ/uZTJPJvsgUuyI8kCvbmXjg");
+  private IConfigCatClient configCatClient = ConfigCatClient.Get("YOUR_CONFIGCAT_SDK_KEY");
 
   private bool isRotateSpriteEnabled;
 
   public override void _Ready()
   {
-    isRotateSpriteEnabled = configCatClient.GetValue("rotatesprite", false);
+    isRotateSpriteEnabled = configCatClient.GetValue("mygodotfeatureflag", false);
 
     if (isRotateSpriteEnabled)
     {
