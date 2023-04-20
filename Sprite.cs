@@ -7,7 +7,7 @@ public partial class Sprite : Sprite2D
   private int speed = 400;
   private int AngularSpeed = (int)Mathf.Pi;
 
-  // Initialize ConfigCat client.
+  // Initialize ConfigCat client
   private IConfigCatClient configCatClient = ConfigCatClient.Get("bzTbCEPv_E6GL6COig1QRQ/uZTJPJvsgUuyI8kCvbmXjg");
 
   private bool isRotateSpriteEnabled;
