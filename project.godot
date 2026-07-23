@@ -10,10 +10,19 @@ config_version=5
 
 [application]
 
-config/name="sampleapp"
-config/features=PackedStringArray("4.0", "Forward Plus")
+config/name="Using Feature Flags in GODOT Sample"
+config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
-[dotnet]
+[display]
 
-project/assembly_name="sampleapp"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
