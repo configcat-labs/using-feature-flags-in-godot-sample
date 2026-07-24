@@ -4,8 +4,8 @@ This is a companion repository containing the sample project mentioned and used 
 
 ## Pre-requisites
 
-- Have [GODOT installed](https://godotengine.org/download/)
-- Have [.NET 10.0](https://dotnet.microsoft.com/en-us/download)
+- Have [GODOT](https://godotengine.org/download/) installed.
+- Have [.NET 10.0](https://dotnet.microsoft.com/en-us/download) installed.
 
 ## Build & Run
 
