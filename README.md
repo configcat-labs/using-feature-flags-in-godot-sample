@@ -4,30 +4,32 @@ This is a companion repository containing the sample project mentioned and used 
 
 ## Pre-requisites
 
-- Have [GODOT installed](https://godotengine.org/download/windows/)
-- [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- Have [GODOT installed](https://godotengine.org/download/)
+- [.NET 10.0](https://dotnet.microsoft.com/en-us/download)
 
 ## Build & Run
 
-With GODOT is installed, Here's how to run the sample GODOT project.
+With GODOT installed, here's how to run the sample GODOT project.
 
 **1.** Clone this repo
 
-**2.** Launch the GODOT Engine, browse to the folder, and open the project.
+**2.** Open `Sprite2d.cs` and replace `"YOUR-CONFIGCAT-SDK-KEY"` with your own ConfigCat SDK key.
 
-## Learn more
+**3.** Launch the GODOT Engine, browse to the folder, and open the project.
+
+## Learn More
 
 Useful links to technical resources.
 
 - [GODOT Documentation](https://docs.godotengine.org/en/stable/about/introduction.html#doc-about-intro) - learn about GODOT.
 
-- [Learn GODOT](https://docs.godotengine.org/en/stable/community/tutorials.html) - an interactive Next.js tutorial.
+- [Learn GODOT](https://docs.godotengine.org/en/stable/community/tutorials.html) - community tutorials for GODOT.
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
 You can also explore other code samples for various languages, frameworks, and topics here in the [ConfigCat labs](https://github.com/configcat-labs) on GitHub.
 
-Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
+Keep up with ConfigCat on [X](https://x.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
 
 ## Author
 
